@@ -9,15 +9,13 @@ html结构
 ------
 ```html
 <div id="marquee">
-    <div class="area">
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>            
-    </div>
-    <a href="javascript:;" class="prevbtn">前一个</a>
-    <a href="javascript:;" class="nextbtn">下一个</a>
+    <ul>
+        <li></li>
+        <li></li>
+    </ul> 
 </div>
+<a href="javascript:;" id="prevbtn">前一个</a>
+<a href="javascript:;" id="nextbtn">下一个</a>
 ```
 
 CSS
@@ -30,7 +28,7 @@ CSS
 JS
 ------
 ```javascript
-$('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'.prevbtn', goright:'.nextbtn'});
+$('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'#prevbtn', goright:'#nextbtn'});
 ```
 
 可选参数
