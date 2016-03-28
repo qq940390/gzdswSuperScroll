@@ -1,0 +1,2 @@
+# gzdswSuperScroll
+贵州都市网自适应超级滚动滚动jQuery插件
