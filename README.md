@@ -30,9 +30,7 @@ CSS
 JS
 ------
 ```javascript
-$('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'.prevbtn', goright:'.nextbtn'}); //只有一个控制按钮的情况
-
-$('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'children .prevbtn', goright:'children .nextbtn'});  //有多个滚动，每个滚动都有控制按钮
+$('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'.prevbtn', goright:'.nextbtn'});
 ```
 
 可选参数
