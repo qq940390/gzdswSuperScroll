@@ -1,12 +1,13 @@
 # gzdswSuperScroll
-贵州都市网自适应超级滚动滚动jQuery插件
-作者： wujinhai (940390@qq.com)
-版权： 没有版权，欢迎转载使用。
-
-使用示例：
-
-#html结构
-<code><pre>
+贵州都市网自适应超级滚动滚动jQuery插件<br/>
+作者： wujinhai (940390@qq.com)<br/>
+版权： 没有版权，欢迎转载使用。<br/>
+<br/>
+使用示例：<br/>
+<br/>
+html结构
+------
+```html
 <div id="marquee">
     <div class="area">
         <ul>
@@ -17,20 +18,26 @@
     <a href="javascript:;" class="prevbtn">前一个</a>
     <a href="javascript:;" class="nextbtn">下一个</a>
 </div>
-</pre></code>
+```
 
-#CSS
-<style>
+CSS
+------
+```css
 #marquee {width:200px;height:50px;overflow:hidden;}
 #marquee li{float:left;display:inline;height:50px;}
-</style>
+```
 
-#JS
+JS
+------
+```javascript
 $('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'.prevbtn', goright:'.nextbtn'}); //只有一个控制按钮的情况
 
 $('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direction:'left', goleft:'children .prevbtn', goright:'children .nextbtn'});  //有多个滚动，每个滚动都有控制按钮
+```
 
-#可选参数
+可选参数
+------
+```javascript
 {
     timeout:3000,            //等待滚动前的时间，单位为毫秒
     interval:3000,            //滚动间隔时间，单位：毫秒
@@ -47,3 +54,4 @@ $('#marquee .area').gzdswSuperScroll({timeout:3000, interval:3000, step:1, direc
     speed:'normal',         //默认的滚动速度，只支持自适应和位移滚动
     easing:''                //jquery easing 效果，默认无效果，使用 easing 效果，一定要确保加载了 jquery.easing 插件
 }
+```
