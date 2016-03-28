@@ -6,6 +6,7 @@
 使用示例：
 
 #html结构
+<code><pre>
 <div id="marquee">
     <div class="area">
         <ul>
@@ -16,6 +17,7 @@
     <a href="javascript:;" class="prevbtn">前一个</a>
     <a href="javascript:;" class="nextbtn">下一个</a>
 </div>
+</pre></code>
 
 #CSS
 <style>
