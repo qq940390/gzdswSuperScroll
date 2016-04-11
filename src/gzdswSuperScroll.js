@@ -74,7 +74,7 @@
             if(opts.height) _box.height(opts.height);				
 			
             _lis.each(function(){
-				_scrollMax += (opts.direction == 'left' || opts.direction == 'right') ? $(this).get(0)['scrollWidth'] : $(this).get(0)['scrollHeight'];
+				_scrollMax += (opts.direction == 'left' || opts.direction == 'right') ? $(this).outerWidth(true) : $(this).outerHeight(true);
 			});
             _moveBox.append(_lis.clone());			
 			var _clonelis = _moveBox.children();			
