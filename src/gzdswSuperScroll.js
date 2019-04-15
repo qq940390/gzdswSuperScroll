@@ -76,7 +76,7 @@
             _lis.each(function(){
                 _scrollMax += (opts.direction == 'left' || opts.direction == 'right') ? $(this).outerWidth(true) : $(this).outerHeight(true);
             });
-            if((_type == 1 ? _box.width() : _box.height()) > _scrollMax) {
+            if((_type == 1 ? _box.width() : _box.height()) < _scrollMax) {
                 _moveBox.append(_lis.clone());
             }
             var _clonelis = _moveBox.children();
