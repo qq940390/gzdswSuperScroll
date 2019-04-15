@@ -3,4 +3,4 @@
 作者： wujinhai (940390@qq.com)<br/>
 版权： 没有版权，欢迎转载使用。<br/>
 <br/>
-使用方法、参数文档详见： [https://wujinhai.cn/productions/content-4.html](https://wujinhai.cn/productions/content-4.html)
+使用方法、参数文档详见： [http://wujinhai.cn/productions/4.html](http://wujinhai.cn/productions/4.html)
